@@ -6,7 +6,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 
+@Listeners(ListenerUtility.class)
 public class Base_Test extends WebDriverUtility {
 
 	public static  InitObjects i = new InitObjects();

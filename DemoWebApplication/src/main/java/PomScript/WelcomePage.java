@@ -11,7 +11,7 @@ public class WelcomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//a[text()='Register']")
+	@FindBy(xpath = "//a[text()='Registers']")
 	private WebElement registerlink;
 	
 	public WebElement getRegisterLink() {

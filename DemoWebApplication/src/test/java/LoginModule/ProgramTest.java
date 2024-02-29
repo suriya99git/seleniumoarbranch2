@@ -10,8 +10,6 @@ public class ProgramTest extends Base_Test  {
 
 	@Test
 	public void testCase() {
-
-		Reporter.log("Test Case Executed",true);
 		
 		Reporter.log( i.getWebDriverUtilityMethod().curenturl(),true);
 		
